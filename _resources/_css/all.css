@@ -1,0 +1,108 @@
+/* CSS Document */
+body{
+	margin:0;
+}
+
+#wrapper{
+	position:absolute;
+	width:100%;
+	min-width:400px;
+	height:100%;
+}
+
+#page_title{
+	background-color:#333;
+	width:auto;
+	clear:both;
+	padding-left:15px;
+	height:8%;
+	min-height:50px;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color:#eee;
+	line-height:45px;
+	font-size:48px;		
+}
+
+#year_scroll{
+	overflow:hidden;
+	position:relative;
+	background-color:#EEE;
+	width:auto;
+	clear:both;
+	height:30%;
+	min-height:200px;
+	background-image:url(../_images/bg1.png);
+}
+
+#date_holder{
+	width:1800%;
+	position:relative;
+	margin-left:0;
+}
+
+.date_cont{
+	z-index:0;
+	width:5.54%;
+	float:left;
+	position:relative;		
+}
+
+.date_image{
+	width:400px;
+	margin:0 auto;
+}
+
+#content_scroll{
+	background-color:transparent;
+	overflow:hidden;
+	width:auto;
+	clear:both;
+	height:62%;
+	min-height:400px;	
+}
+
+.image_cont{
+	position:absolute;
+	width:100%;
+	overflow:hidden;
+	display:none;
+}
+
+.gal_image{
+	width:100%;
+	float:left;
+}
+
+.desc_text{
+	position:absolute;
+	width:300px;
+	height:100%;
+	right:-300px;
+	background-image:url(../_images/textBg.png);
+	color:#FFFFFF;
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:24px;
+}
+
+#goFw, #goBack{
+	position:absolute;
+	z-index:100;
+	width:100px;
+	height:100%;
+	background-color:transparent;
+}
+
+#goFw{
+	float:right;
+	right:0;
+	background-image:url(../_images/fw.png);
+	background-repeat:no-repeat;
+}
+
+#goBack{
+	float:left;
+	background-image:url(../_images/back.png);
+	background-repeat:no-repeat;
+}
